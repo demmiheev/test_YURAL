@@ -1,4 +1,5 @@
 import BrandList from './components/BrandList'
+import OffersTable from './components/OffersTable'
 import SearchForm from './components/SearchForm'
 
 export default function App() {
@@ -12,6 +13,9 @@ export default function App() {
         <aside className="col-lg-4 col-xl-3">
           <BrandList />
         </aside>
+        <main className="col-lg-8 col-xl-9">
+          <OffersTable />
+        </main>
       </div>
     </div>
   )
